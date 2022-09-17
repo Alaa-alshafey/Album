@@ -1,0 +1,119 @@
+*{
+	box-sizing: border-box;
+}
+body {
+    background-color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin:0;
+	padding:0;
+    font-family: 'Livvic', sans-serif;
+    font-family: 'Oswald', sans-serif;
+
+}
+ th, td {
+    border: 1px solid black ;
+    border-collapse: collapse;
+    text-align: center;
+    font-size:15px;
+    }
+table {
+    margin-top: 30px;
+    width: 95%;
+	border-collapse: collapse;
+    margin-bottom: 250px;
+    margin-left: 20px;
+}
+
+
+table .logo h2 {
+    padding: 10px;
+    color: rgb(34, 94, 146);
+    font-size: 30px;
+    
+}
+table .logo i {
+    color: red;
+}
+span.logo-text {
+    color: red;
+    padding-left: 30px;
+    letter-spacing: 13px;
+    font-size: 15px;
+}
+.header .left {
+    text-align: left;
+}
+.contents {
+    background-color: rgb(204, 203, 201);
+    font-weight: bold;
+}
+table .row-four, .row-five, .row-six {
+    font-size: 10px;
+}
+table h6 {
+    font-size: 14px;
+}
+
+.table-right {
+    background-color:  rgb(204, 203, 201);
+}
+.column-right {
+    background-color: rgb(228, 228, 228);
+}
+table .left {
+    text-align: center;
+}
+table .col-head {
+    font-size: 18px;
+}
+.part-one{
+    background-color:  rgb(204, 203, 201);
+    height: 30px;
+}
+.part-two{
+    background-color: rgb(228, 228, 228);
+}
+.fivee {
+    height: 60px;
+
+}
+.total {
+    background-color:  rgb(184, 183, 183);
+    font-weight: bold;
+}
+
+.pilot h6 {
+    text-align: left;
+    font-size: 16px;
+}
+.ticket {
+    font-size: 12px;
+    text-align: left;
+}
+h6 {
+    font-weight: bold;
+}
+.box-one {
+    text-align: left;
+}
+.box-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+}
+
+.box-two {
+    display: flex;
+    justify-content: space-between;
+}
+.box-two button {
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: 2px solid black;
+    margin-right: 10px;
+}
+

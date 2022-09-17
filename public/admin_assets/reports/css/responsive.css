@@ -1,0 +1,49 @@
+
+/*responsive*/
+
+@media(max-width: 767px){
+	thead {
+		display: none;
+	}
+	table, tbody,  tr, td{
+		display: block;
+		width: 100%;
+		font-size: 22px;
+		padding-top: 5px;
+	}
+	table tr{
+		margin-bottom:15px;
+	}
+	table td{
+		text-align: center;
+		position: relative;
+		min-height: 60px;
+		width: 100%;
+	}
+	.box-one {
+		flex-direction: column;
+	}
+	.box-one p {
+	margin-right: 60%;
+	}
+	.part-one  {
+		width: 100%;
+		font-size: 15px;
+	}
+	.part-two {
+		width: 100%;
+	}
+	.part-three {
+		width: 100%;
+	}
+	.contents th{
+		width: 100px;
+	}
+}
+
+
+
+
+
+
+
